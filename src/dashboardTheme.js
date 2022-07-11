@@ -1,4 +1,4 @@
-import { createTheme } from '@mui/material/styles';
+import {createTheme} from '@mui/material/styles';
 
 export const dashboardTheme = createTheme({
     components: {
@@ -42,9 +42,15 @@ export const dashboardTheme = createTheme({
         h1: {
             fontSize: '1.6rem',
             fontWeight: 600,
-            color: '#fff',
+            color: 'inherit',
             letterSpacing: '0.5px',
             textTransform: 'capitalize',
+            '&:hover': {
+                backgroundColor: 'inherit'
+            },
         },
+        h2: {
+            marginLeft: '256px',
+        }
     },
 });

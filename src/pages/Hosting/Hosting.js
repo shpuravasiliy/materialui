@@ -1,10 +1,10 @@
 import React from 'react';
-import {Grid} from "@mui/material";
+import {Grid, Typography} from "@mui/material";
 
 const Hosting = () => {
     return (
         <Grid item xs={8}>
-            <h1>This is Hosting page.</h1>
+            <Typography variant={'h2'}>This is Hosting page.</Typography>
         </Grid>
     );
 };
