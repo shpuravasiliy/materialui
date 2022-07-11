@@ -4,11 +4,14 @@ import Storage from "../pages/Storage/Storage";
 import Hosting from "../pages/Hosting/Hosting";
 import MachineLearning from "../pages/MachineLearning/MachineLearning";
 import Functions from "../pages/Functions/Functions";
+import Navbar from "../components/Navbar/Navbar";
+import App from "../App";
+import StartingPage from "../pages/StartingPage/StartingPage";
 
 export const routes = [
     {
         path: '/',
-        element: null,
+        element: <StartingPage/>,
         children: [
             {
                 path: "authentication",

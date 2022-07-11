@@ -1,12 +1,9 @@
 import React from 'react';
 import {useRoutes} from "react-router-dom";
-import {mainNavbarItems} from "./components/Navbar/consts/navbarListitems";
+import {routes} from "./routes/routes";
 
 const Router = () => {
-    return useRoutes(mainNavbarItems.map(item => ({
-        path: item.route,
-        element: item.element,
-    })))
+    return useRoutes(routes);
 };
 
 export default Router;

@@ -11,6 +11,7 @@ import {mainNavbarItems} from './consts/navbarListitems';
 import {navbarStyles} from "./styles";
 import {useNavigate} from "react-router-dom";
 
+
 const Navbar = () => {
     const navigate = useNavigate();
     return (
